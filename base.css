@@ -1,0 +1,321 @@
+html, body {
+    margin: 0;  
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, monospace; 
+}
+
+h1{ 
+    text-align: center;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content:center;
+}
+
+.wrapper {
+    width: 1800px;
+    display:flex;
+    margin: 0px;
+    background-color: rgb(21, 21, 20);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 75%;
+}
+
+/*MENU*/
+.menu {
+    width: 10%;
+    background-color: rgb(187, 188, 189);
+   /* background-color: rgb(255, 255, 255);*/
+    padding: 10px 20px 0px;
+    align-items: center;
+}
+.menu img {
+    margin-left: 29px ;
+    border-radius: 90px;
+}
+.menu p {
+    margin-left: 50px;
+}
+.menu p  a{
+    text-decoration: none;
+}
+.menu ul{
+   margin-left: -10px;
+   padding-left: 0;
+   
+}
+.menu ul li{
+    width: 160px;
+    list-style-type: none;  
+} 
+
+.menu ul li a{
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    display: block;
+    text-decoration: none;
+    background-color: rgb(110, 158, 255);
+    color: white;
+    -webkit-box-shadow: 2px 1px 0px 4px rgba(110, 158, 255,0.14); 
+    box-shadow: 2px 1px 0px 4px rgba(110, 158, 255,0.14);
+    
+}
+
+
+
+.menu ul li a:hover {
+    background-color: rgb(202, 209, 202);
+}
+ 
+.menu ul li a:hover {
+     background-color: rgb(202, 209, 202);
+     color: black;
+}
+hr {
+     border: 1 solid blue;
+}
+
+/*HEADER*/
+.header {
+    background-color: rgb(110, 158, 255);
+    min-height: 120px;
+    width: 116.5%;
+    -webkit-box-shadow: 2px 1px 0px 4px rgba(0,0,0,0.14); 
+    box-shadow: 2px 1px 0px 4px rgba(0,0,0,0.14);
+   
+}
+.header ul li {
+    float: left;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 0px;
+    display: inline-block;
+    color: white;
+  
+
+}
+.header ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.header ul li a:hover {
+    color: black;
+}
+.header ul caption:hover {
+    color: black;
+}
+
+.header ul input {
+    float: left;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 0px;
+    display: inline-block;
+  
+}
+
+ /*CONTENT*/
+.content {
+    background-color: white;
+    min-height: 300px;
+    width: 109.1%;
+    padding: 100px;
+    -webkit-box-shadow: 2px 1px 0px 4px rgba(0,0,0,0.14); 
+    box-shadow: 2px 1px 0px 4px rgba(0,0,0,0.14);  
+    margin: 0;
+    padding: 42px; 
+    
+}
+.content img {
+    border-radius: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 2px 1px 0px 4px rgba(110, 158, 255,0.14); 
+    box-shadow: 2px 1px 0px 4px rgba(110, 158, 255,0.14);
+}
+.contentH2 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.contentTable img{
+    width: 150px;
+    height: 148px;
+    
+}
+.contentTable th {
+    background-color: rgb(110, 158, 255);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.contentTable td {
+    background-color: rgb(110, 158, 255);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.contentTableConvenio img {
+    width: 150px;
+    height: 148px;
+
+}
+.contentTableConvenio th {
+    text-align: center;
+    border-radius: 10px;
+
+}
+.contentTableConvenio td {
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.contentVoltar{
+    margin: 0;
+    padding: 0;
+
+}
+button {
+    background-color:rgb(110, 158, 255);
+    border: 0;
+    height: 25px;
+    width: 75px;
+    -webkit-box-shadow: 2px 1px 0px 4px rgba(110, 158, 255,0.14); 
+    box-shadow: 2px 1px 0px 4px rgba(110, 158, 255,0.14);
+    border-radius: 10px;
+    
+}
+.contentVoltar a {
+    text-decoration: none;
+    color: white;
+}
+
+.textoContent {
+    float: left;
+    width: 280px;
+    margin: 20px;
+    
+}
+/*localizçao*/
+.contentLocalizacao img {
+    float: left;
+    margin: 45px;
+    margin-left: 100px;
+    padding: 0;
+    -webkit-box-shadow: 2px 1px 0px 4px rgba(110, 158, 255,0.14); 
+    box-shadow: 2px 1px 0px 4px rgba(110, 158, 255,0.14);
+    border-radius: 10px;
+}
+.contentLocalizacao iframe {
+    margin: 30px;
+    width: 600px;
+    height: 300px;
+    margin-left: 100px;
+    padding: 0px;
+    -webkit-box-shadow: 2px 1px 0px 4px rgba(110, 158, 255,0.14); 
+    box-shadow: 2px 1px 0px 4px rgba(110, 158, 255,0.14);
+    border-radius: 15px;
+}
+.contentH2Localizacao {
+    text-align: center;
+    margin: 0px;
+    margin-left: 35px;
+    padding: 0;
+}
+
+.contentLocalizacaoP {
+    margin-left:  100px;
+    -webkit-box-shadow: 2px 1px 0px 4px rgba(110, 158, 255,0.14); 
+    box-shadow: 2px 1px 0px 4px rgba(110, 158, 255,0.14);
+    border-radius: 10px;
+    width: 360px;
+    height: 55px;
+    text-align: center;
+
+    
+}
+.content p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, monospace;
+    border-radius: 15px;
+    
+}
+
+/*Contatos*/
+
+form {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 2px 1px 0px 4px rgba(110, 158, 255,0.14); 
+    box-shadow: 2px 1px 0px 4px rgba(110, 158, 255,0.14);
+    
+}
+
+form label {
+    margin: 5px;
+    font-size: 15px;
+    padding: auto;
+    align-items: center;
+    width: 90px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, monospace;
+}
+
+form input{
+    border: 0;
+    outline: unset;
+    padding: 5px;
+    width: 500px;
+    -webkit-box-shadow: 2px 1px 0px 4px rgba(110, 158, 255,0.14); 
+    box-shadow: 2px 1px 0px 4px rgba(110, 158, 255,0.14);
+    
+}
+
+form textarea {
+    margin: 5px;
+    display: inline-block;
+    border-radius: 1px;
+}
+
+.formButton button{
+    margin: 10px;
+    color: white;
+    
+}
+
+/*FOOTER*/
+.footer {
+    background-color: rgb(110, 158, 255);
+    min-height: 94px;
+    width: 116.5%;
+    -webkit-box-shadow: 2px 1px 0px 4px rgba(0,0,0,0.14); 
+    box-shadow: 2px 1px 0px 4px rgba(0,0,0,0.14);
+}
+
+.footer p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+ 
+
+
